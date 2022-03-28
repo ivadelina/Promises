@@ -1,6 +1,8 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable class-methods-use-this */
+/* eslint-disable no-console */
 /* eslint-disable no-underscore-dangle */
-/* eslint-disable linebreak-style */
+
 
 import read from './reader';
 import json from './parser';

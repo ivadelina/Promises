@@ -1,6 +1,6 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable import/extensions */
-import GameSavingLoader from './app.js';
+import GameSavingLoader from '../app.js';
 
 test('Check object', () => {
   const classTest = new GameSavingLoader();
