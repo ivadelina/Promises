@@ -8,8 +8,10 @@ import json from './parser';
 /* eslint-disable max-classes-per-file */
 export default class GameSavingLoader {
   load() {
-    const firstPromise = read();
-    firstPromise.then((data) => json(data)).then(response => JSON.parse(response)).catch()
-   return 
+    read().then((response) => json(response)).then((data) => {
+      
+    }).catch(() => {
+      throw new Error('Ошибка');
+    });
   }
 }
